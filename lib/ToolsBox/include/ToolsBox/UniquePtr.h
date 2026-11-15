@@ -1,0 +1,56 @@
+/**
+* @file UniquePtr.h
+* @brief
+*
+* @version 1.1
+* @date 2026-07-04
+*
+* @copyright idk bro
+* @author MgPhenix (https://github.com/MgPhenix) & Marien-Garon (https://github.com/Marien-Garon)
+*/
+#pragma once
+
+/**
+* @brief A Unique Pointer class (idk what am suppose to say)
+*/
+template<typename T>
+class UniquePtr
+{
+private:
+
+	T* ptr;
+
+public:
+
+	explicit UniquePtr(T* newPtr = nullptr) :
+		ptr(newPtr)
+	{}
+	
+	UniquePtr(UniquePtr&& other) :
+		ptr(other.ptr)
+	{
+		other.ptr = nullptr;
+	}
+	
+	UniquePtr(const UniquePtr& other) = delete;
+	UniquePtr& operator=(const UniquePtr& other) = delete;
+
+	~UniquePtr() { delete ptr; };
+
+	UniquePtr& operator=(UniquePtr&& other)
+	{
+		if (this == &other) return *this;
+
+		ptr(other);
+		other.ptr = nullptr;
+		return *this;
+	};
+
+	T* operator->() const {
+		return ptr;
+	};
+
+	T& operator*() const {
+		return *ptr;
+	};
+};
