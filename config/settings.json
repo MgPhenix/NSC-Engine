@@ -3,7 +3,7 @@
         "63642599-1539-748B-1931-3BDD58AE0FA9": {
             "config-debug": {
                 "additionalDependencies": [
-                    "SDL3.lib;SDL3_mixer.lib;SDL3_image.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
+                    "SDL3.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
                 ],
                 "additionalIncludeDirectories": [
                     "$(SolutionDir)../lib/SDL3/include",
@@ -21,7 +21,7 @@
             },
             "config-release": {
                 "additionalDependencies": [
-                    "SDL3.lib;SDL3_mixer.lib;SDL3_image.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
+                    "SDL3.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
                 ],
                 "additionalIncludeDirectories": [
                     "$(SolutionDir)../lib/SDL3/include",
@@ -48,7 +48,7 @@
         "7E09351F-34FE-242D-2FB0-51A56F395956": {
             "config-debug": {
                 "additionalDependencies": [
-                    "SDL3.lib;SDL3_mixer.lib;SDL3_image.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
+                    "SDL3.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
                 ],
                 "additionalIncludeDirectories": [
                     "$(SolutionDir)../lib/SDL3/include",
@@ -66,7 +66,7 @@
             },
             "config-release": {
                 "additionalDependencies": [
-                    "SDL3.lib;SDL3_mixer.lib;SDL3_image.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
+                    "SDL3.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
                 ],
                 "additionalIncludeDirectories": [
                     "$(SolutionDir)../lib/SDL3/include",
@@ -93,7 +93,7 @@
         "7E165D11-4C1E-1C2A-50DB-0EFF1FDB2B99": {
             "config-debug": {
                 "additionalDependencies": [
-                    "SDL3.lib;SDL3_mixer.lib;SDL3_image.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
+                    "SDL3.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
                 ],
                 "additionalIncludeDirectories": [
                     "$(SolutionDir)../lib/SDL3/include",
@@ -111,7 +111,7 @@
             },
             "config-release": {
                 "additionalDependencies": [
-                    "SDL3.lib;SDL3_mixer.lib;SDL3_image.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
+                    "SDL3.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
                 ],
                 "additionalIncludeDirectories": [
                     "$(SolutionDir)../lib/SDL3/include",
@@ -142,7 +142,7 @@
         "7E230502-633F-1427-7205-4C5A507D7DDC": {
             "config-debug": {
                 "additionalDependencies": [
-                    "SDL3.lib;SDL3_mixer.lib;SDL3_image.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
+                    "SDL3.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
                 ],
                 "additionalIncludeDirectories": [
                     "$(SolutionDir)../lib/SDL3/include",
@@ -160,7 +160,7 @@
             },
             "config-release": {
                 "additionalDependencies": [
-                    "SDL3.lib;SDL3_mixer.lib;SDL3_image.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
+                    "SDL3.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
                 ],
                 "additionalIncludeDirectories": [
                     "$(SolutionDir)../lib/SDL3/include",
@@ -187,7 +187,7 @@
         "7EE4322E-7861-3DFF-3B35-55571DD05B37": {
             "config-debug": {
                 "additionalDependencies": [
-                    "SDL3.lib;SDL3_mixer.lib;SDL3_image.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
+                    "SDL3.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
                 ],
                 "additionalIncludeDirectories": [
                     "$(SolutionDir)../lib/SDL3/include",
@@ -205,7 +205,7 @@
             },
             "config-release": {
                 "additionalDependencies": [
-                    "SDL3.lib;SDL3_mixer.lib;SDL3_image.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
+                    "SDL3.lib;ToolsBox-Windows-x64.lib;%(AdditionalDependencies)"
                 ],
                 "additionalIncludeDirectories": [
                     "$(SolutionDir)../lib/SDL3/include",

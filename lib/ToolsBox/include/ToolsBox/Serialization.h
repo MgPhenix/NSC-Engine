@@ -123,12 +123,12 @@ public:
 	* @brief Write data in a Compound storage (function will be call by SerializerManager)
 	* @param Compound& data : Write everything you want in this compound, don't forget to set the file name with SetFileName() before
 	*/
-	virtual void WriteCompoundTag(Compound& data) = 0; // Literally WriteToNbtTag from minecraft
+	virtual void WriteCompoundTag(Compound& data) {}; // Literally WriteToNbtTag from minecraft
 	/**
 	* @brief Read data from a Compound storage (function will be call by SerializerManager)
 	* @param Compound& data : Read everything you want from this compound, don't forget to set the file name with SetFileName() before
 	*/
-	virtual void ReadCompoundTag(Compound& data) = 0; // Literally ReadToNbtTag from minecraft
+	virtual void ReadCompoundTag(Compound& data) {}; // Literally ReadToNbtTag from minecraft
 };
 
 class SerializerManager
