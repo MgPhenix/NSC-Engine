@@ -13,7 +13,7 @@ int main()
     Entity e;
     e.AddComponent<BaseComponent>();
 
-    IComponent<Entity>* comp = e.GetComponent<BaseComponent>();
+   auto comp = e.GetComponent<BaseComponent>();
 
     if (comp)
         std::cout << "yahou";
