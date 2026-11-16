@@ -6,6 +6,7 @@
 struct BaseComponent : public IComponent<Entity>
 {
     void Update(Entity* owner) override {};
+    using Type = BaseComponent;
 };
 
 int main()

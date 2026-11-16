@@ -4,6 +4,7 @@
 #include <ToolsBox/Traits.h>
 #include <vector>
 #include <SDL3/SDL.h>
+#include <iostream>
 
 #include "Component.h"
 
@@ -53,6 +54,15 @@ private:
 	friend class Engine;
 };
 
+template<typename C, typename T>
+bool CheckType(const T&)
+{
+	if (is_same_v<T, C>)
+		return true;
+
+	return false;
+}
+
 
 template<typename C, typename... Args>
 inline void Entity::AddComponent(Args&&... args)
@@ -69,7 +79,7 @@ inline IComponent<Entity>* Entity::GetComponent()
 {
 	for (auto& comp : m_components)
 	{
-		if (is_same_v<C, decltype(comp)>)
+		if (dynamic_cast<C*>(comp)) // I DONT LIKE THAT
 			return comp;
 	}
 
